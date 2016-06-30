@@ -45,6 +45,7 @@ LogComponentEnable("ns3-lec3-project3",LOG_LEVEL_ALL);
   
   可以测试一下，如果在Ubuntu的/NS3_install/ns-allinone-3.24.1/ns-3.24.1$ 目录下使用如下命令进行测试：./waf
   如果出现以下结果：
+  
   ![](http://i1.piimg.com/567571/436855e5c68eb1a3.png)
   即如果visualizer模块已被编译，那么可以直接进入后续步骤。如果visualizer在Modules not built目录下，那么还需要下载pyviz软件包，解压后放在/NS3_install/ns-allinone-3.24.1目录下，再需重新编译如下命令：
   ```
@@ -63,4 +64,22 @@ LogComponentEnable("ns3-lec3-project3",LOG_LEVEL_ALL);
   在运行脚本的语句后面加入参数 –vis。结果如下所示：
   ![](http://i1.piimg.com/567571/e244f4f99a6b3f83.png)
   
+##Wireshark工具
+1.Wireshark的下载安装
+
+ ```
+ $ sudo apt-get update
+ $ sudo apt-get install wireshark
+ ```
+ 2.Wireshark的使用
+ 
+  ```
+  $ wireshark
+  ```
+  ![](http://i2.piimg.com/567571/f3eac59193fa0d71.png)
+  
+  然后，使用wireshark工具读取.pcap文件
+  ![](http://i2.piimg.com/567571/6c249515db76b916.png)
+  ![](http://i2.piimg.com/567571/3c27f859edb05ee0.png)
+  ![](http://i2.piimg.com/567571/1e03902fc0b99bfb.png)
   
