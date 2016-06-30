@@ -47,6 +47,7 @@ LogComponentEnable("ns3-lec3-project3",LOG_LEVEL_ALL);
   如果出现以下结果：
   
   ![](http://i1.piimg.com/567571/436855e5c68eb1a3.png)
+  
   即如果visualizer模块已被编译，那么可以直接进入后续步骤。如果visualizer在Modules not built目录下，那么还需要下载pyviz软件包，解压后放在/NS3_install/ns-allinone-3.24.1目录下，再需重新编译如下命令：
   ```
   $ ./waf clean
